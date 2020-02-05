@@ -15,5 +15,6 @@ test:
 
 deploy: clean build
 	pipenv install --three twine
+	# pipenv run --three twine upload
 	pipenv run --three twine upload dist/*
 	pipenv uninstall --three twine

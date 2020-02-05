@@ -8,7 +8,7 @@ lte1_edit_distance_module = Extension(
 
 setup(
     name='edit_distance_lte1',
-    version='0.0.2',
+    version='0.0.4',
     description='Fast string distance function for the case where the distance is less or equal to 1',
     include_package_data=True,
 
